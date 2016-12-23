@@ -16,3 +16,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-ocean.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
+# LOCALE
+export LC_ALL=C
