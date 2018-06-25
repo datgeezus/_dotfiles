@@ -19,3 +19,4 @@ BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-ocean.sh"
 
 # LOCALE
 export LC_ALL=C
+export PATH="/usr/local/bin:$PATH"
