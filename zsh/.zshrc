@@ -104,6 +104,6 @@ source $ZSH/oh-my-zsh.sh
 
 export VISUAL='/usr/bin/vim'
 export EDITOR=$VISUAL
-export FZF_DEFAUKT_OPTS='--height 40% --layout=reverse --border'
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
