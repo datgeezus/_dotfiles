@@ -9,8 +9,9 @@ export ZSH="/home/$USER/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="robbyrussell"
-TYPEWRITTEN_PROMPT_LAYOUT="pure"
-ZSH_THEME="typewritten"
+export TYPEWRITTEN_PROMPT_LAYOUT="pure"
+export TYPEWRITTEN_CURSOR="underscore"
+export ZSH_THEME="typewritten"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,5 +106,7 @@ source $ZSH/oh-my-zsh.sh
 export VISUAL='/usr/bin/vim'
 export EDITOR=$VISUAL
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+export TERMINAL=kitty
+export PATH="$HOME/.npm/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
